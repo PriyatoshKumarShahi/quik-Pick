@@ -2,7 +2,7 @@
   
   {
     "id": 1,
-    "name": "Laptop",
+    "name": "HP Laptop",
     "category": "Computers",
     "brand": "Lenovo",
     "price": 39999.00,
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Smartphone",
+    "name": "Realme 11x 5g",
     "category": "Mobiles",
     "brand": "TechGadget",
     "price": 9499.99,
@@ -22,103 +22,112 @@
   },
   {
     "id": 3,
-    "name": "Wireless Headphones",
-    "category": "Audio",
-    "brand": "SoundBeats",
-    "price": 749.99,
-    "stock": 30,
-    "image": "../images/speaker.png",
-    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
-  },
-  {
-    "id": 4,
-    "name": "Watches",
-    "category": "Wearables",
-    "brand": "FitTech",
-    "price": 1999.99,
-    "stock": 20,
-    "image": "../images/watch.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
-  },
-  {
-    "id": 5,
-    "name": "Bluetooth Earphones",
-    "category": "Audio",
-    "brand": "SoundBeats",
-    "price": 649.99,
-    "stock": 30,
-    "image": "../images/Wireless-Earphones-Transparent-Image.png",
-    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
-  },
-  {
-    "id": 6,
-    "name": "Television",
-    "category": "Video",
-    "brand": "Samsung",
-    "price": 29999.99,
-    "stock": 20,
-    "image": "../images/tv.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
-  },
-  {
-    "id": 7,
-    "name": "Cooler",
-    "category": "Electric Appliance",
-    "brand": "Havells",
-    "price": 9999.99,
-    "stock": 50,
-    "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-    "image": "../images/cooler.png"
-  },
-  {
-    "id": 8,
-    "name": "Air Conditioner",
-    "category": "Electric Appliance",
-    "brand": "Blue Star",
-    "price": 34999.99,
+    "name": "Nike Air jordan 1 Low Shoes",
+    "category": "Shoes",
+    "brand": "TechGadget",
+    "price": 9499.99,
     "stock": 100,
-    "image": "../images/ac.png",
+    "image": "../images/nike.png",
     "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
   },
   {
-    "id": 9,
-    "name": "Juicer",
-    "category": "Mixer",
-    "brand": "Phillips",
-    "price": 449.99,
+    "id": 4,
+    "name": "Ladies frock : Yellow Coloured",
+    "category": "Ladies",
+    "brand": "TechGadget",
+    "price": 9499.99,
+    "stock": 100,
+    "image": "../images/kurti2.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
+  },
+ 
+ 
+  {
+    "id": 5,
+    "name": "Kid's Kurta ",
+    "category": "Kids",
+    "brand": "SoundBeats",
+    "price": 649.99,
     "stock": 30,
-    "image": "../images/juicer.png",
+    "image": "../images/kid-kurta.png",
     "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
   },
+  
   {
-    "id":10,
-    "name": "Mixer",
-    "category": "Mixer",
+    "id": 6,
+    "name": "Men's Formal Wear",
+    "category": "Mens",
+    "brand": "SoundBeats",
+    "price": 649.99,
+    "stock": 30,
+    "image": "../images/mens-wear.png",
+    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+  },
+  
+  {
+    "id": 7,
+    "name": "Beats Earpods",
+    "category": "Earphones",
+    "brand": "SoundBeats",
+    "price": 1649.99,
+    "stock": 30,
+    "image": "../images/earpods.png",
+    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+  },
+  
+
+  {
+    "id":8,
+    "name": "Havells Mixer-Grinder",
+    "category": "Kitchen Appliance",
     "brand": "Havells",
     "price": 599.99,
     "stock": 20,
     "image": "../images/mixer.png",
     "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
   },
+
+  {
+    "id":9,
+    "name": "Boat Smart Watch",
+    "category": "Watches",
+    "brand": "Havells",
+    "price": 4499.99,
+    "stock": 20,
+    "image": "../images/watch-boat.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+  },
+
+  {
+    "id":10,
+    "name": "Tata Salt,500g",
+    "category": "Fresh",
+    "brand": "Havells",
+    "price": 20,
+    "stock": 20,
+    "image": "../images/daily-salt.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+  },
+  {
+    "id":10,
+    "name": "Areca Palm Artificial tree",
+    "category": "Artificial Planters",
+    "brand": "Havells",
+    "price": 99,
+    "stock": 20,
+    "image": "../images/artificial1.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+  },
+  
   {
     "id": 11,
-    "name": "Washing Machine",
+    "name": " LG Smart Inverter Washing Machine",
     "category": "Electric Appliance",
     "brand": "LG",
     "price": 14499.99,
     "stock": 30,
     "image": "../images/washing.png",
     "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
-  },
-  {
-    "id": 12,
-    "name": "Computer",
-    "category": "Computers",
-    "brand": "HP",
-    "price": 29999.99,
-    "stock": 20,
-    "image": "../images/computer.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
   }
+
 ]
-  

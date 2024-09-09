@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: slideDown 1s forwards;
+}
+
+@keyframes slideDown {
+  0% {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-radius: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+.sign-up-register{
+  text-decoration: none;
+  margin-top: -35px;
+  margin-left: 90px;
+  color: rgb(127, 127, 231);
+}
+.sign-up-register a{
+  text-decoration: none;
+
+}
+.sign-in-register{
+  text-decoration: none;
+  margin-top: -35px;
+  margin-left: 200px;
+  color: rgb(127, 127, 231);
+}
+.sign-in-register a{
+  text-decoration: none;
+
+}
+#togglePassword{
+  font-size: 17px;
+  background-color: white;
+  border: 1px solid black;
+  }
+#toggleSignUpPassword{
+  font-size: 17px;
+  background-color: white;
+  border: 1px solid black;
+  }

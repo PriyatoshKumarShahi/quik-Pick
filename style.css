@@ -25,13 +25,26 @@
   --supporting-color: #ebf3fe;
   --glow-color: hsl(186, 91%, 4%);
 }
+.sing_in_up a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: rgb(181, 180, 180);
+  padding: 5px 10px;
+  transition: color 0.4s ease, border-bottom 0.4s ease;
+  border-bottom: 2px solid transparent; 
+}
+
+.sing_in_up a:hover {
+  /* background-color: #007bff;  */
+  color: white;
+  border-bottom: 1px solid rgb(92, 199, 225); 
+}
 
 html {
   font-size: 62.5%;
   color: var(--textColor);
 }
 
-/* have a look into body once after we done with rest of the styling  */
 body {
   margin: 0 auto;
   padding: 0 32px;
@@ -787,7 +800,9 @@ footer {
   -ms-border-radius: 10rem;
   -o-border-radius: 10rem;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .productImage {
   max-width: 100%;
   width: 32rem;
@@ -991,7 +1006,7 @@ footer {
 
     .productSubTotal,
     .productFinalTotal,
-    .productTax {
+    .productTax , .productDiscount {
       color: var(--textColor);
       font-weight: bold;
     }
@@ -1226,4 +1241,96 @@ footer {
     padding: 6.4rem 0rem 2.4rem 0rem;
   }
 }
-/***** End  media queries Section *****/
+
+.more-items{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.more-items--laptop{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.more-items--laptop img{
+/* width: 300px;
+height: 200px; */
+margin-top: 20px;
+}
+.more-items--laptop p{
+font-size: 20px;
+margin-top: 20px;
+font-weight: 600;
+}
+.more-producs-para{
+  font-size: 13px;
+  color: rgb(94, 94, 248);
+}
+.computer-heading h1{
+  margin-top: 40px;
+font-family: Arial, Helvetica, sans-serif;
+color: #8892B0; 
+margin-bottom: 40px;
+}
+#img2{
+  height: 250px;
+}
+#img1{
+  height: 200px;
+  width: 300px;
+}
+#img3{
+  height: 200px;
+  width: 300px;
+}
+#img4{
+  height: 300px;
+  width: 300px;
+}
+#img5{
+  height: 200px;
+  width: 300px;
+}
+#img6{
+  height: 280px;
+  width: 350px;
+}
+#img7{
+  height: 200px;
+  width: 300px;
+}
+#img8{
+  height: 200px;
+  width: 300px;
+}
+#img9{
+  height: 200px;
+  width: 230px;
+}
+#img10{
+  height: 200px;
+  width: 250px;
+}
+#img11{
+  height: 200px;
+  width: 290px;
+}
+#img12{
+  height: 200px;
+  width: 250px;
+}
+.more-producs-para a{
+  font-size: 17px;
+  color: gray;
+}
+.fresh-para p{
+  margin-top: -30px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.productDiscount{
+  color: green;
+}

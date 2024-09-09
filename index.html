@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shop the latest products on our eCommerce store.">
+<meta property="og:title" content="QuikPick - An Ecommerce Store">
+<meta property="og:description" content="Best deals and quality products.">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -25,14 +28,14 @@
             <p>Free shipping, 30-day return or refund guarantee.</p>
           </div>
           <div class="sing_in_up" >
-            <a href="# " style="
+            <a href="sign-in.html" class="sign-in-index" style="
             margin-right: 15px;
             text-decoration: none;
-            color: rgb(175, 174, 174);
+           
           ">SIGN IN</a>
-            <a href="# " style="
+            <a href="sign-up.html" class="sign-up-index" style="
             text-decoration: none;
-            color: rgb(175, 174, 174);
+            
           ">SIGN UP</a>
           </div>
         </div>
@@ -92,8 +95,8 @@
               cutting-edge gadgets! Explore the latest in tech innovation and
               style with us. Shop now and discover a world of possibilities!
             </p>
-            <div class="hero-btn">
-              <a href="products.html" class="btn">Explore Our Products</a>
+            <div class="hero-btn" >
+              <a href="#products" class="btn">Explore Our Products</a>
             </div>
           </div>
           <div
@@ -223,16 +226,15 @@
 
     <!-- ========== Start Our Products Section ========== -->
 
-    <section class="section-products container">
+    <section class="section-products container" >
       <div class="">
-        <h2 class="section-common--heading">Explore QuikPick Store</h2>
+        <h2 class="section-common--heading" id="products">Explore QuikPick's Best Seller!</h2>
       </div>
 
       <section class="container">
         <div id="productContainer"></div>
       </section>
     </section>
-
 
 
     <template id="productTemplate">
@@ -275,9 +277,90 @@
           <button class="add-to-cart-button">
             <i class="fa-solid fa-cart-shopping"></i> Add To Cart
           </button>
+          <p ><a style="color: gray;" href="#moreproducts">📌 Click Here For More Similar products 📌</a></p>
         </article>
       </div>
+
     </template>
+
+    <div class="more-products" id="moreproducts">
+      <h2> Similar Products</h2>
+      <div class="more-items">
+        <div class="more-items--laptop">
+          <div style="width: 90px;" class="category">Computers</div>
+          <img id="img1" src="public/images/computer.png" alt="">
+          <p>HP Envy x360</p>
+          <p class="more-producs-para"><a href="computerProducts.html">Check More Computer products</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 70px;" class="category">Mobile</div>
+          <img id="img2" src="public/images/mobile-samsung-s22.png" alt="">
+          <p>Samsung Gallaxy S22 Ultra</p>
+          <p class="more-producs-para" ><a href="mobileProducts.html">Check More Mobile Gadgets</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 60px;" class="category">Shoes</div>
+          <img id="img3" src="public/images/sport-shoes.png" alt="">
+          <p>Salomon Running Shoes</p>
+          <p class="more-producs-para"><a href="shoesProducts.html">Check More in Shoes</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 70px;" class="category">Ladies</div>
+          <img id="img4" src="public/images/ladies-suit.png" alt="">
+          <p>Ladies Traditional Wears</p>
+          <p class="more-producs-para"><a href="ladiesProducts.html">Checkout Ladies Wears</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 50px;" class="category">Kids</div>
+          <img id="img5" src="public/images/kids-home.png" alt="">
+          <p>Kids Dresses</p>
+          <p class="more-producs-para"><a href="kidsProducts.html">Checkout Kids Section</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 50px;" class="category">Mens</div>
+          <img id="img6" src="public/images/mens-wear4.png" alt="">
+          <p>Men's Shirt</p>
+          <p class="more-producs-para"><a href="mensProducts.html">Checkout Men's Styles</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 140px;" class="category">Kitchen Appliance</div>
+          <img id="img7" src="public/images/juicer.png" alt="">
+          <p>Juicer</p>
+          <p class="more-producs-para"><a href="kitchenProducts.html">See More kitchen Appliance</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 150px;" class="category">Electrical Appliance</div>
+          <img id="img8" src="public/images/ac.png" alt="">
+          <p>Blue Star Air Conditioner</p>
+          <p class="more-producs-para"><a href="electricalProducts.html">Check More Electrical Appliance</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 90px;" class="category">Earphones</div>
+          <img id="img9" src="public/images/Wireless-Earphones-Transparent-Image.png" alt="">
+          <p>Wireless Bluetooth Earphones</p>
+          <p class="more-producs-para"><a href="earphoneProducts.html">Check More in Earphone Section</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 75px;" class="category">Watches</div>
+          <img id="img10" src="public/images/watch-apple.png" alt="">
+          <p>Smart Watch</p>
+          <p class="more-producs-para"><a href="watchProducts.html">Click Here for more in Watches</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 60px;" class="category">Fresh</div>
+          <img id="img11" src="public/images/daily-britania.webp" alt="">
+          <p>Britania Chocolate Cake</p>
+          <p class="more-producs-para"><a href="dailyProducts.html">Check Fresh Products of QuikPick</a></p>
+        </div>
+        <div class="more-items--laptop">
+          <div style="width: 135px;" class="category">Artificial Planters</div>
+          <img id="img12" src="public/images/artificial2.png" alt="">
+          <p>Artificial Plants</p>
+          <p class="more-producs-para"><a href="artificialProducts.html">Checkout More Artificial Planters</a></p>
+        </div>
+      </div>
+    
+    </div>
 
     <!-- ========== End Product Template Section ========== -->
 
@@ -296,12 +379,11 @@
             <p class="common-text--highlight">1</p>
             <h3 class="section-common--title">Wide Selection</h3>
             <p>
-              QuikPick  offers a diverse range of gadgets, from smartphones to
-              smart home devices, ensuring you find what you need to elevate
+              QuikPick  offers a diverse range of products, from electronic gadgets to
+              fashion wear, ensuring you find what you need to elevate
               your lifestyle and meet your tech requirements.
             </p>
           </div>
-
           <div
             class="why-choose--div"
             data-aos="zoom-in-up"
@@ -397,8 +479,8 @@
         </div>
         <div class="content_2">
           <h4>SHOPPING</h4>
-          <a href="#">Computer Store</a>
-          <a href="#">Laptop Store</a>
+          <a href="computerProducts.html">Computer Store</a>
+          <a href="computerProducts.html">Laptop Store</a>
           <a href="#">Accessories</a>
           <a href="#">Sales & Discount</a>
         </div>

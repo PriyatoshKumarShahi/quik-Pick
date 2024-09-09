@@ -11,7 +11,6 @@ let filterProducts = products.filter((curProd) => {
   return cartProducts.some((curElem) => curElem.id === curProd.id);
 });
 
-console.log(filterProducts);
 
 // -----------------------------------------------------
 // to update the addToCart page
